@@ -17,7 +17,8 @@ class PDFConverter:
         '''
         读取所有文件名
         '''
-        full_pathname = os.path.abspath(pathname)
+        # full_pathname = os.path.abspath(pathname)
+        full_pathname = pathname
         if os.path.isfile(full_pathname):
             if self._is_legal_postfix(full_pathname):
                 self._filename_list.append(full_pathname)
@@ -103,6 +104,6 @@ if __name__ == "__main__":
     # folder = 'tmp'
     # pathname = os.path.join(os.path.abspath('.'), folder)
     # 也支持单个文件的转换
-    pathname = "/c/Users/YCKJ2717/Desktop/POC/POC接口文档.docx"
+    pathname = "C:\Users\YCKJ2717\Desktop\POC\POC接口文档.docx"
     pdfConverter = PDFConverter(pathname)
     pdfConverter.run_conver()
