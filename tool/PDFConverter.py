@@ -3,7 +3,9 @@ import os
 import pythoncom
 from win32com.client import gencache, Dispatch, constants, DispatchEx
 
-
+"""
+https://mp.weixin.qq.com/s/pkQw_YraaEptZOSOCThxgQ
+"""
 class PDFConverter:
     def __init__(self, pathname, export='.'):
         self._handle_postfix = ['doc', 'docx', 'ppt', 'pptx', 'xls', 'xlsx']  # 支持转换的文件类型
