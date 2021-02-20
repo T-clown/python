@@ -44,7 +44,7 @@ print(nums)
 # 从列表中找出某个值第一个匹配项的索引位置
 print(nums.index(2))
 # 将对象插入列表
-nums.insert(0, 0)
+nums.insert(0, 99)
 print(nums)
 # 移除列表中的一个元素（默认最后一个元素），并且返回该元素的值
 print(nums.pop())

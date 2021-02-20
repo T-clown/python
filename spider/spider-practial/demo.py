@@ -49,6 +49,10 @@ def download(type_id):
         type_name = ''.join(item.xpath(".//h3[@class='wrap-title lang']/text()"))
         # type_id = ''.join(item.xpath(".//@data-chanid"))
         print(type_name)
+        book_names = ''.join(item.xpath(".//div[@class='book-list']/ul/li[2]/div/a/text()"))
+        first_book_name = ''.join(item.xpath(".//div[@class='book-list']/ul/li/div/div/h4/a/text()"))
+        print(book_names)
+        print(first_book_name)
 
 
-download(1)
+download(21)
