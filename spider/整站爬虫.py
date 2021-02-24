@@ -39,9 +39,9 @@ detail_queue = Queue()
 pool = Pool(size=10)
 
 
-def crawl(url,headers):
+def crawl(url, headers):
     """首页"""
-    response = requests.get(url,headers=headers)
+    response = requests.get(url, headers=headers)
     list_urls = etree.HTML(response.text).xpath(rules['list_urls'])
     for list_url in list_urls:
         list_queue.put(urljoin(base_url, list_url))
@@ -84,7 +84,7 @@ def crawl_detail_page(list_url, headers):
 
 def main():
     # 1. 标签页
-    crawl(start_url,headers)
+    crawl(start_url, headers)
     # 2. 列表页
     pool.spawn(list_loop)
     # 3. 详情页
