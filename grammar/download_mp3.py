@@ -28,9 +28,11 @@ def DownloadFile(mp3_url, save_url, file_name):
 
 if __name__ == "__main__":
     # MP3源地址url
-    url = 'https://mp3.jiuku.9ku.com/upload/128/2017/08/03/863848.mp3'
+    ##url = 'https://mp3.jiuku.9ku.com/upload/128/2017/08/03/863848.mp3'
+    ##url = 'https://mp3.9ku.com/hot/2005/11-01/72064.mp3'
+    url = 'http://antiserver.kuwo.cn/anti.s?rid=MUSIC_38913046&response=res&format=mp3|aac&type=convert_url&br=128kmp3&agent=iPhone&callback=getlink&jpcallback=getlink.mp3'
     # MP3保存文件夹
-    save_url = '/c/Users/YCKJ2717/Desktop/python-spider'
+    save_url = '/Users/hrtps/Desktop/music'
     # MP3文件名
-    file_name = 'mymusic.mp3'
+    file_name = '铁血丹心.mp3'
     DownloadFile(url, save_url, file_name)
