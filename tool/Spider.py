@@ -1,8 +1,6 @@
 # -*- coding: UTF-8 -*-
 """
-@File    ：spider.py
-@Author  ：叶庭云
-@CSDN    ：https://yetingyun.blog.csdn.net/
+https://yetingyun.blog.csdn.net/
 """
 import requests
 from lxml import etree

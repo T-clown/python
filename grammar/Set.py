@@ -6,11 +6,12 @@
 a = {1, 2, 3}
 b = {1, 2}
 print(1 in a)
-
+# 差集
 print(a - b)
 print(b - a)
-
+# 并集
 print(a | b)
+# 公共元素
 print(a & b)
 # 不同时包含于a和b的元素
 print(a ^ b)
@@ -53,4 +54,3 @@ a.symmetric_difference_update(b)
 print(a)
 # 返回两个集合的并集
 print(a.union(b))
-

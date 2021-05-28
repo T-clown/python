@@ -1,8 +1,6 @@
 # -*- coding: UTF-8 -*-
 """
-@File    ：职业分布.py
-@Author  ：叶庭云
-@CSDN    ：https://yetingyun.blog.csdn.net/
+https://yetingyun.blog.csdn.net/
 """
 import pandas as pd
 from collections import Counter

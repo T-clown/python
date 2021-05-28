@@ -1,5 +1,7 @@
 list = ['red', 'green', 'blue', 'yellow', 'white', 'black']
+# 第一个元素
 print(list[0])
+#最后一个元素
 print(list[-1])
 
 print(list[0:3])
@@ -64,4 +66,3 @@ print("复制:")
 print(a)
 # 清空列表
 nums.clear()
-

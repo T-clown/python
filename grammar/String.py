@@ -1,7 +1,7 @@
 from numpy.core.defchararray import capitalize
 
 x = "1234567890"
-
+print(len(x))
 print(x[1])
 print(x[1:])
 print(x[:3])

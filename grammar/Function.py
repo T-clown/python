@@ -9,3 +9,6 @@ print(max(1, 2))
 
 sum = lambda a, b: a + b
 print(sum(1, 2))
+
+big = lambda a, b: a > b
+print(big(1, 2))
