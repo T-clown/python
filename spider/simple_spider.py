@@ -29,5 +29,6 @@ def main():
         # 4. 保存结果
         print(result)
 
+
 if __name__ == '__main__':
     main()
